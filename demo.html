@@ -15,7 +15,7 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
 		<link rel="stylesheet" href="css/reveal.css">
-		<link rel="stylesheet" href="css/theme/black.css" id="theme">
+		<link rel="stylesheet" href="css/theme/lasimple.css" id="theme">
 
 		<!-- Theme used for syntax highlighting of code -->
 		<link rel="stylesheet" href="lib/css/zenburn.css">
@@ -59,7 +59,7 @@
 				<section>
 					<section>
 						<h2>Vertical Slides</h2>
-						<p>Slides can be nested inside of each other.</p>
+						<p>Slides can be nested inside of each other. :smile:</p>
 						<p>Use the <em>Space</em> key to navigate through all slides.</p>
 						<br>
 						<a href="#" class="navigate-down">
@@ -68,7 +68,7 @@
 					</section>
 					<section>
 						<h2>Basement Level 1</h2>
-						<p>Nested slides are useful for adding additional detail underneath a high level horizontal slide.</p>
+						<p>Nested slides are useful :svg-heart: for adding additional detail underneath a high level horizontal slide.</p>
 					</section>
 					<section>
 						<h2>Basement Level 2</h2>
@@ -388,7 +388,7 @@ Reveal.addEventListener( 'customevent', function() {
 				controls: true,
 				progress: true,
 				history: true,
-				center: true,
+				center: false,
 
 				transition: 'slide', // none/fade/slide/convex/concave/zoom
 
@@ -400,7 +400,9 @@ Reveal.addEventListener( 'customevent', function() {
 					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
 					{ src: 'plugin/search/search.js', async: true },
 					{ src: 'plugin/zoom-js/zoom.js', async: true },
-					{ src: 'plugin/notes/notes.js', async: true }
+					{ src: 'plugin/notes/notes.js', async: true },
+					{ src: 'plugin/svgicons/svgicons.js', async: true },
+
 				]
 			});
 
